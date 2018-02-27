@@ -53,7 +53,7 @@ public class ApplicationServer {
 
     private static void waitUntilServerIsUp(String port) throws InterruptedException {
         HttpClient httpClient = new HttpClient();
-        int timeout = 360;
+        int timeout = 720;
         Instant start = Instant.now();
         boolean isUp = false;
 
