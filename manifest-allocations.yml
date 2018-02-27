@@ -5,6 +5,6 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://allocations-pal-arp.apps.cumuluslabs.io/
+    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-arp.apps.cumuluslabs.io/
   services:
   - tracker-allocations-database
