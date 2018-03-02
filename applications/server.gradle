@@ -23,6 +23,9 @@ dependencies {
     compile "ch.qos.logback:logback-classic:1.1.11"
 
     testCompile project(":components:test-support")
+    compile "org.springframework.cloud:spring-cloud-starter-sleuth"
+    compile "org.springframework.cloud:spring-cloud-sleuth-stream"
+    compile "org.springframework.cloud:spring-cloud-starter-stream-rabbit"
 }
 
 bootRun.environment([
